@@ -1,0 +1,23 @@
+{
+  "name": "sample-travis-heroku",
+  "version": "1.0.0",
+  "description": "heroku and travis",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint server.js $$ mocha ./tests/index-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chieu1964/sample-travis-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chieu1964/sample-travis-heroku/issues"
+  },
+  "homepage": "https://github.com/Chieu1964/sample-travis-heroku#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
