@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- stable
+npm: true
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: BRHm29QyfYFJ4JLPZsv6cIkJncg93hMW5LNToyA11Xr+Pt6oXti8j0auHB+u7kbi1gRTBa8RRi7wevpbxgAeIJcN0C+zeQRugS7HQQYEt86VZ1gXXI896Ex7mwNV2lVdF2WyeFT3H7hpQmvU3iEsVhRd96NVIDOR1FWd7BUJU0PcFKL576rvNUvVTa3dymF4gDk3vGZUCXvBeuQzmZFyeeymWPOuHSJC3/Sy5Vk0Z71Ov8f2RBUMu7W3BvXpyzhYNdu4D9ksM7E1S8xYeD1TI6F3zbkZ1C2nTdiOVyPSPEOXgsk+/5oNIWmD/OkefTt+wu9qs6CEk1KOUwkJtXTPWjyeUyxzi53ZueOX2+59AzzbmQIqlKmsDDBALStK7pVnv0QTT89IBPeEciUO60iO/yRDEYv/dZNS1J6vBhNOsOOh/Va+Q5j3/UFsrw0T086bhwP6mQ5wywvQBxuW06meMxgFX0+frxJBdXVYcXzPVi+fYucAOn4M9PAGhewb8fH3xUNzmwslnkgqExSgBO2xvTQ8tpo7/ZoD69jrUyw4RjFXT7iicg/XBb3bAuLzsS11cRiL/ELXlC+uWNVn/u+HkaJpEF6qR95RSgw8RhdoEfvokkbooEFzu5rpW2vLf94KivoD7xEuAFzvEHSqAqsi/MZ8oUnKB96kHJb4HJ+i6KI=
+  app: sample-travis-heroku
+  on:
+    repo: Chieu1964/sample-travis-heroku
