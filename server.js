@@ -1,4 +1,4 @@
-/* server.js main file by QuangA */
+/* server.js main file by Quang */
 const express = require('express');
 
 const app = express();
